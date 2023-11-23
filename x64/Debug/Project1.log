@@ -1,0 +1,29 @@
+﻿  CircleParser.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'Circle': cannot instantiate abstract class
+C:\Users\asus\OneDrive\Máy tính\OOP2023\KTGK\Shape\Project1\Circle.h(11,7): message : see declaration of 'Circle'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'std::string Object::toString(void)': is abstract
+C:\Users\asus\OneDrive\Máy tính\OOP2023\KTGK\Shape\Project1\Object.h(14,20): message : see declaration of 'Object::toString'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Circle
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<Circle>' being compiled
+C:\Users\asus\OneDrive\Máy tính\OOP2023\KTGK\Shape\Project1\CircleParser.cpp(18): message : see reference to function template instantiation 'std::shared_ptr<Circle> std::make_shared<Circle,double&>(double &)' being compiled
+  main.cpp
+  SquareParser.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'Square': cannot instantiate abstract class
+C:\Users\asus\OneDrive\Máy tính\OOP2023\KTGK\Shape\Project1\Square.h(14,7): message : see declaration of 'Square'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'std::string Object::toString(void)': is abstract
+C:\Users\asus\OneDrive\Máy tính\OOP2023\KTGK\Shape\Project1\Object.h(14,20): message : see declaration of 'Object::toString'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Square
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<Square>' being compiled
+C:\Users\asus\OneDrive\Máy tính\OOP2023\KTGK\Shape\Project1\SquareParser.cpp(17): message : see reference to function template instantiation 'std::shared_ptr<Square> std::make_shared<Square,double&>(double &)' being compiled
+  StringConverter.cpp
+  Generating Code...
